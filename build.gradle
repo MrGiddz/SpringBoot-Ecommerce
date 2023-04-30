@@ -33,6 +33,7 @@ dependencies {
 
 jar {
 	manifest {
+		enabled = false
 		attributes(
 				'Main-Class': 'com.school.project.ecommercebackend.Application'
 		)
